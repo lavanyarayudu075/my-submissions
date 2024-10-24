@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int N, factorial = 1;   // logical error in initilisation 
+    scanf("%d", &N);
+
+    int i = 1;
+    while (i <= N) {        // logical error in condition
+        factorial *= i;     // incorrect syntax 
+        ++i;
+    }
+    printf("%d", factorial);
+    return 0;
+}
