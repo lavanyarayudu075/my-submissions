@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double X=53.56;
+    double Y=3;
+    int A = 45;
+    int B = 20;
+   
+    printf("%d\n", abs(A - B));
+    printf("%f\n", ceil(X));
+    printf("%f\n", floor(X));
+    printf("%f\n", pow(X,Y));
+
+    
+}
